@@ -10,14 +10,26 @@
 <body>
 
    <?php    
-      $a=56;
-      if($a%2==0){
-          echo "$a is even number";
+      $marks=67;
+      if($marks<33){
+          echo "fail";
       }
-      else{
-          echo "$a is a odd number";
+      else if($marks>=34 && $marks<50)
+      {
+          echo "grade D";
       }
-      
+        else if($marks>=51 && $marks<69)
+         {
+        echo "grade C";
+          }
+      else if($marks>69 && $marks<75)
+      {
+         echo "grade B";
+        }
+    else if($marks>75 && $marks<90)
+    {
+       echo "grade A";
+    }
     ?>
 </body>
 </html>

@@ -10,9 +10,8 @@
 <body>
 
    <?php    
-  $x = "HELLO WORLD!";
-  echo $x. "<br>";
-  echo strtolower("convert into lowercase:"."<br>".$x);
+       $x= "hello we are here";
+        echo strtoupper("converted in uppertext:"."<br>".$x);
   ?>
 </body>
 </html>

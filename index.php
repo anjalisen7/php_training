@@ -12,7 +12,7 @@
    <?php    
   $x = "Hello World!";
   echo $x. "<br>";
-  echo rtrim($x,"ld!");
+  echo ltrim($x,"He");
   ?>
 </body>
 </html>

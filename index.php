@@ -10,34 +10,12 @@
 <body>
 
 <?php
-  function kim(){
-     static $i=2;
-     static $a=2;
-    //   echo $a;
-    //   echo $i;
-       echo $a * $i;
-      $a++;
-      $a * $i;
-      }
-      kim();
-      echo"<br>";
-      kim();
-      echo"<br>";
-      kim();
-      echo"<br>";
-      kim();
-      echo"<br>";
-      kim();
-      echo"<br>";
-      kim(); 
-       echo"<br>";
-      kim(); 
-       echo"<br>"; 
-      kim();
-        echo"<br>"; 
-        kim();
-        echo"<br>"
-     
+   
+  $x ="hello this my page";
+  echo "string length is:";
+  echo strlen($x);
+    
+      
 ?>
 </body>
 </html>

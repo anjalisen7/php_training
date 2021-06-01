@@ -9,7 +9,8 @@
 <body>
 
    <?php
-   echo "click herer!"
+   $tech = "BUTTON"
+   echo "click $tech!"
    ?>
 </body>
 </html>

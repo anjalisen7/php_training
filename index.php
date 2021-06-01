@@ -10,9 +10,9 @@
 <body>
 
    <?php    
-   $str = "Hello World!";
-   echo $str . "<br>";
-   echo trim($str,"Hed!");
-   ?>
+  $x = "Hello World!";
+  echo $x. "<br>";
+  echo rtrim($x,"ld!");
+  ?>
 </body>
 </html>

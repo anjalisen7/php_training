@@ -10,11 +10,10 @@
 <body>
 
    <?php    
-       $x= "hello! anjali vani sneha";
-        $person = array("anjali","vani","sneha");
-        $surname= array("sen","sharma","kimpal");
-        $newx = str_replace($person,$surname,$x);
-        echo $newx;
+       $x= "hello pritam pyare Suman";
+       $y = "hello pritam pyaRE";
+          echo (strcmp($y,$x));
+        
   ?>
 </body>
 </html>

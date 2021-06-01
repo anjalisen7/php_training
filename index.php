@@ -10,8 +10,11 @@
 <body>
 
    <?php    
-       $x= 'hello, guys,welcome';
-        print_r(explode(",",$x,1));
+       $x= array('hello', 'guys','welcome', 'here');
+        echo (implode("-",$x))."<br>";
+        echo (implode("+",$x))."<br>"; 
+        echo (implode("/",$x))."<br>";
+        echo (implode("'",$x));
           ?>
 </body>
 </html>

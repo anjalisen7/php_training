@@ -10,14 +10,23 @@
 <body>
 
 <?php
-   
-     $num1= 45;
-     $num2 =67;
-     function test(){
-         $GLOBALS['num2'] = $GLOBALS['num1'] * $GLOBALS['num2'];
-                  }
-        test();
-        echo    "multiply value is: => $num2";
+  function kim(){
+     static $a=10;
+      echo $a;
+      $a++;
+      }
+      kim();
+      echo"<br>";
+      kim();
+      echo"<br>";
+      kim();
+      echo"<br>";
+      kim();
+      echo"<br>";
+      kim();
+      echo"<br>";
+      kim();  echo"<br>";
+     
 ?>
 </body>
 </html>

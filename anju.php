@@ -8,9 +8,9 @@
 </head>
 <body>
 
-   <?php
-   $tech = "BUTTON"
-   echo "click $tech!"
-   ?>
+<?php
+$txt = "PHP";
+echo "I love $txt!";
+?>
 </body>
 </html>

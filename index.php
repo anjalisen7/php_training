@@ -10,10 +10,11 @@
 <body>
 
 <?php    
-     define("cosmetics",["lipstick","nail-paint","moisturizer","eyeliner","muscara","kajal"]);
-     echo   'list of cosmetics'."<br>".cosmetics[4]."<br>".cosmetics[2]."<br>".cosmetics[0];
-      ;  
-
+      $a=45;
+      echo$a."<br>";
+      $a++;
+      echo $a."<br>".$a."<b>"."<br>".$a."<br>".$a;
+      
 ?>
 </body>
 </html>

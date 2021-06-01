@@ -9,12 +9,10 @@
 </head>
 <body>
 
-<?php    
+   <?php    
       $a=45;
-      echo$a."<br>";
-      $a++;
-      echo $a."<br>".$a."<b>"."<br>".$a."<br>".$a;
-      
-?>
+      $a--;
+      echo $a."<br>";
+    ?>
 </body>
 </html>

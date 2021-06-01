@@ -10,9 +10,9 @@
 <body>
 
    <?php    
-     $x ="this i's it";
-     echo addslashes($x)."<br>"."this is safe.";
-
-    ?>
+     $x ="this is it";
+     echo bin2hex($x)."<br>";
+     echo pack("H*",bin2hex($x))."<br>";
+   ?>
 </body>
 </html>

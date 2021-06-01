@@ -12,7 +12,7 @@
 <?php
    
   $x ="hello this is my page";
-   echo strpos ($x,"my");
+   echo str_replace ("my","anjali's",$x);
   
  
     

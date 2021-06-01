@@ -10,9 +10,10 @@
 <body>
 
    <?php    
-     $x ="this is it";
-     echo bin2hex($x)."<br>";
-     echo pack("H*",bin2hex($x))."<br>";
+     $x ="this is it\n\n";//remove /n from the right end;
+     $y ="this is it";// remove right end string;
+     echo $x ."<br>";
+     echo chop($y,"it");
    ?>
 </body>
 </html>

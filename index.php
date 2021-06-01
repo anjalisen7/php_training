@@ -11,9 +11,13 @@
 
 <?php
   function kim(){
-     static $a=10;
-      echo $a;
+     static $i=2;
+     static $a=2;
+    //   echo $a;
+    //   echo $i;
+       echo $a * $i;
       $a++;
+      $a * $i;
       }
       kim();
       echo"<br>";
@@ -25,7 +29,14 @@
       echo"<br>";
       kim();
       echo"<br>";
-      kim();  echo"<br>";
+      kim(); 
+       echo"<br>";
+      kim(); 
+       echo"<br>"; 
+      kim();
+        echo"<br>"; 
+        kim();
+        echo"<br>"
      
 ?>
 </body>

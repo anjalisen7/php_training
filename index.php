@@ -11,7 +11,7 @@
 
    <?php    
     $x ="HELLO! This World Is Not For Me";
-     echo substr( $x,9);
+     echo substr( $x,-6);
    
    ?>
 </body>

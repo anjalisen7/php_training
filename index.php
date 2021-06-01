@@ -12,8 +12,8 @@
 <?php
    
   $x ="hello this is my page";
- 
-  echo  str_word_count($x);
+   echo "Reverse String Is Here :";
+  echo  strrev($x);
   
  
     

@@ -10,11 +10,13 @@
 <body>
 
    <?php    
-       $x= array('hello', 'guys','welcome', 'here');
-        echo (implode("-",$x))."<br>";
-        echo (implode("+",$x))."<br>"; 
-        echo (implode("/",$x))."<br>";
-        echo (implode("'",$x));
+        $x=23;
+        if (is_string($x)){
+            echo "its string";
+        } else 
+        {
+            echo "its not a string";
+        }
           ?>
 </body>
 </html>

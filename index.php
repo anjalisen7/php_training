@@ -10,8 +10,8 @@
 <body>
 
    <?php    
-     $x ="this is it";
-     echo addcslashes($x, "i...h");
+     $x ="this i's it";
+     echo addslashes($x)."<br>"."this is safe.";
 
     ?>
 </body>

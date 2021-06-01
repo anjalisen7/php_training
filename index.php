@@ -4,23 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>php</title>
     <link rel ="stylesheet" href="index.css">
 </head>
 <body>
 
 <?php
-$food = "burger";
-$food1 = "hot-dog";
-$food2 = "chinese";
-$food3 = "golgappe";
-
-  echo "<h1>You Can Order From The List!</h1>";
-   echo "<p>list here!</p>";
-    echo "<li>$food</li>";
-    echo "<li>$food1</li>"; 
-   echo "<li>$food2</li>"; 
-   echo "<li>$food3</li>"; 
- ?>
+ $num1 =34;
+ $num2 =23;
+ echo  $num1 + $num2;
+?>
 </body>
 </html>

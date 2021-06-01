@@ -10,8 +10,9 @@
 <body>
 
    <?php    
-    $x = "YOU ME ^$#";
-    echo convert_cyr_string($x,"w","a") ;
+    $x ="HELLO! This World Is Not For Me";
+     echo substr( $x,4,8);
+   
    ?>
 </body>
 </html>

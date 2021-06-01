@@ -10,21 +10,32 @@
 <body>
 
    <?php    
-        $num=45;
-        switch($num){
-            case 10:
-                echo "$num is equal to 10";
+        $today=date("D");
+        switch($today){
+            case Mon:
+                echo "Today is Monday. Washing the Car and goes to drive.";
                  break;
-             case 50:
-                echo "$num is equal to 50";
+             case Tue:
+                echo "Today is Tuesday. Buy Cloths.";
                 break;
-            case 45:
-                 echo "$num is equal to 45";
+             case Wed:
+                 echo "Today is Wednesday. Visit Our Factory.";
                  break;
-            default:
-            echo "$num is not equal to 10, 50 and 45";
-            break;
-            } 
+              case Thu:
+                    echo "Today is Thursday. Going to Lunch with Family In Night.";
+                    break;
+              case Fri:
+                    echo "Today is Friday. Watch movie show.";
+                    break;
+              case Sat:
+                     echo "Today is Saturday. going to temple.";
+                     break;
+                case Sun:
+                     echo "Today is Sunday. Rest with our Family and Enjoy.";
+               default:
+                echo " No task available for that day.";
+                   break;
+               } 
                
           ?>
 </body>

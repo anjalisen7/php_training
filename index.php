@@ -10,26 +10,9 @@
 <body>
 
    <?php    
-      $marks=67;
-      if($marks<33){
-          echo "fail";
-      }
-      else if($marks>=34 && $marks<50)
-      {
-          echo "grade D";
-      }
-        else if($marks>=51 && $marks<69)
-         {
-        echo "grade C";
-          }
-      else if($marks>69 && $marks<75)
-      {
-         echo "grade B";
-        }
-    else if($marks>75 && $marks<90)
-    {
-       echo "grade A";
-    }
+     $x ="this is it";
+     echo addcslashes ("this is it", "s");
+
     ?>
 </body>
 </html>

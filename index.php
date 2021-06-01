@@ -10,8 +10,8 @@
 <body>
 
    <?php    
-    $x = "YOU ME";
-    echo chunk_split($x,3 ,"&") ;
+    $x = "YOU ME ^$#";
+    echo convert_cyr_string($x,"w","a") ;
    ?>
 </body>
 </html>

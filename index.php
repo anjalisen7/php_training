@@ -12,7 +12,10 @@
    <?php    
       $a=45;
       if($a<=100){
-          echo "value is less than 100";
+          echo "$a is less than 100";
+      }
+      else{
+          echo "value is greater than 100";
       }
       
     ?>

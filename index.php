@@ -10,13 +10,22 @@
 <body>
 
    <?php    
-        $x=23;
-        if (is_string($x)){
-            echo "its string";
-        } else 
-        {
-            echo "its not a string";
-        }
+        $num=45;
+        switch($num){
+            case 10:
+                echo "$num is equal to 10";
+                 break;
+             case 50:
+                echo "$num is equal to 50";
+                break;
+            case 45:
+                 echo "$num is equal to 45";
+                 break;
+            default:
+            echo "$num is not equal to 10, 50 and 45";
+            break;
+            } 
+               
           ?>
 </body>
 </html>

@@ -11,7 +11,7 @@
 
    <?php    
      $x ="this is it";
-     echo addcslashes ("this is it", "s");
+     echo addcslashes($x, "i...h");
 
     ?>
 </body>

@@ -10,8 +10,8 @@
 <body>
 
    <?php    
-    $x =chr(76);
-    echo "you $x me are equal";
+    $x = "YOU ME";
+    echo chunk_split($x,3 ,"&") ;
    ?>
 </body>
 </html>

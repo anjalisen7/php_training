@@ -12,8 +12,7 @@
 <?php
    
   $x ="hello this is my page";
-   echo "Reverse String Is Here :";
-  echo  strrev($x);
+   echo strpos ($x,"my");
   
  
     

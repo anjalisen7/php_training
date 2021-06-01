@@ -10,12 +10,12 @@
 <body>
 
    <?php    
-      $a=45;
-      if($a<=100){
-          echo "$a is less than 100";
+      $a=56;
+      if($a%2==0){
+          echo "$a is even number";
       }
       else{
-          echo "value is greater than 100";
+          echo "$a is a odd number";
       }
       
     ?>

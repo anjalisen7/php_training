@@ -11,8 +11,9 @@
 
    <?php    
       $a=45;
-      $b=34;
-      var_dump ($b===$a);
+      if($a<=100){
+          echo "value is less than 100";
+      }
       
     ?>
 </body>

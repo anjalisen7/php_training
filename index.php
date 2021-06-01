@@ -10,10 +10,8 @@
 <body>
 
    <?php    
-     $x ="this is it\n\n";//remove /n from the right end;
-     $y ="this is it";// remove right end string;
-     echo $x ."<br>";
-     echo chop($y,"it");
+    $x =chr(76);
+    echo "you $x me are equal";
    ?>
 </body>
 </html>

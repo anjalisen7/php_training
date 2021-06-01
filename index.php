@@ -11,9 +11,11 @@
 
 <?php
    
-  $x ="hello this my page";
-  echo "string length is:";
-  echo strlen($x);
+  $x ="hello this is my page";
+ 
+  echo  str_word_count($x);
+  
+ 
     
       
 ?>

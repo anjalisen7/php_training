@@ -10,9 +10,8 @@
 <body>
 
    <?php    
-       $x= "hello guys";
-       $a="hello guys";
-          echo (strcmp($a,$x));
+       $x= 'hello, guys,welcome';
+        print_r(explode(",",$x,1));
           ?>
 </body>
 </html>

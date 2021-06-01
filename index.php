@@ -10,9 +10,14 @@
 <body>
 
 <?php
- $num1 =34;
- $num2 =23;
- echo  $num1 + $num2;
+   
+     $num1= 45;
+     $num2 =67;
+     function test(){
+         $GLOBALS['num2'] = $GLOBALS['num1'] * $GLOBALS['num2'];
+                  }
+        test();
+        echo    "multiply value is: => $num2";
 ?>
 </body>
 </html>

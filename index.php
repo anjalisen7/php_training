@@ -10,10 +10,9 @@
 <body>
 
    <?php    
-       $x= "hello pritam pyare Suman";
-       $y = "hello pritam pyaRE";
-          echo (strcmp($y,$x));
-        
-  ?>
+       $x= "hello guys";
+       $a="hello guys";
+          echo (strcmp($a,$x));
+          ?>
 </body>
 </html>

@@ -10,9 +10,9 @@
 <body>
 
    <?php    
-  $x = "Hello World!";
+  $x = "HELLO WORLD!";
   echo $x. "<br>";
-  echo ltrim($x,"He");
+  echo strtolower("convert into lowercase:"."<br>".$x);
   ?>
 </body>
 </html>

@@ -10,9 +10,9 @@
 <body>
 
    <?php    
-    $x ="HELLO! This World Is Not For Me";
-     echo strlen( $x);
-   
+   $str = "Hello World!";
+   echo $str . "<br>";
+   echo trim($str,"Hed!");
    ?>
 </body>
 </html>

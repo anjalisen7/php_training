@@ -9,11 +9,16 @@
 </head>
 <body>
 
-<?php
+<?php    
+      
+      function test(){
      $x= "PHP is a oop language";
    define("trigger",$x);
-   echo __file__;
-  
+   echo "the function name is: ".__FUNCTION__."<br>";
+      }
+      test();
+ 
+      
         
   
 ?>

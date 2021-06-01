@@ -10,17 +10,10 @@
 <body>
 
 <?php    
-      
-      function test(){
-     $x= "PHP is a oop language";
-   define("trigger",$x);
-   echo "the function name is: ".__FUNCTION__."<br>";
-      }
-      test();
- 
-      
-        
-  
+     define("cosmetics",["lipstick","nail-paint","moisturizer","eyeliner","muscara","kajal"]);
+     echo   'list of cosmetics'."<br>".cosmetics[4]."<br>".cosmetics[2]."<br>".cosmetics[0];
+      ;  
+
 ?>
 </body>
 </html>

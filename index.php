@@ -10,13 +10,12 @@
 <body>
 
 <?php
-   
-   define("trigger", "PHP is a oop language");
+     $x= "PHP is a oop language";
+   define("trigger",$x);
    echo trigger;
   
- 
-    
-      
+        
+  
 ?>
 </body>
 </html>

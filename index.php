@@ -12,7 +12,7 @@
 <?php
      $x= "PHP is a oop language";
    define("trigger",$x);
-   echo trigger;
+   echo __LINE__;
   
         
   

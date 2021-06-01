@@ -11,8 +11,9 @@
 
    <?php    
       $a=45;
-      $b= $a;
-      echo $b."<br>";
+      $b=34;
+      var_dump ($b===$a);
+      
     ?>
 </body>
 </html>

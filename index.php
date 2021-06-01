@@ -11,8 +11,9 @@
 
    <?php    
       $a=45;
-      $a--;
-      echo $a."<br>";
+      $b= 23;
+      $b *= $a;
+      echo $b."<br>";
     ?>
 </body>
 </html>

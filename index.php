@@ -10,8 +10,11 @@
 <body>
 
    <?php    
-       $x= "hello we are here";
-        echo strtoupper("converted in uppertext:"."<br>".$x);
+       $x= "hello! anjali vani sneha";
+        $person = array("anjali","vani","sneha");
+        $surname= array("sen","sharma","kimpal");
+        $newx = str_replace($person,$surname,$x);
+        echo $newx;
   ?>
 </body>
 </html>

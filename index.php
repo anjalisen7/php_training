@@ -11,8 +11,8 @@
 
 <?php
    
-  $x ="hello this is my page";
-   echo str_replace ("my","anjali's",$x);
+   define("trigger", "PHP is a oop language");
+   echo trigger;
   
  
     

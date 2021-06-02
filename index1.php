@@ -12,15 +12,15 @@
  <body>
             
   <?php 
-      function test($food){
+      function test($name ,$age){
          
-           echo "you should eat something healthy like:$food"."<br>";
+           echo "Hey $name". "," ."you are $age old"."<br>";
       }
-       test("FRUITS");
-       test("VEGGIES");
-       test("SALADS");
-       test("and");
-       test("other stuff");
+       test("pinki",21);
+       test("sneha",34);
+       test("rizz",28);
+       test("noni", 4);
+       test("peehu", 18);
   ?>
  
 

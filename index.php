@@ -10,11 +10,14 @@
 <body>
 
    <?php    
-       $x=254;
-     while($x<=260){
-  echo "$x.<br>";
-          $x++; 
+     $num =234;
+     $sum =0; $rem =0;
+     while((int)$num != 0){
+         $rem = $num % 10;
+         $sum= $sum + $rem;
+         $num = $num/10;
      }
+      echo "the sum of digit of number given 234 is => $sum";
     ?>
 </body>
 </html>

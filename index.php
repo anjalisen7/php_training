@@ -10,9 +10,12 @@
 <body>
 
    <?php    
-     for($i=0; $i<10; $i++){
-         echo "$i <br>";
-     }
+     for($i=1; $i<10; $i++)
+       {  
+           $text= 2;
+         $text *= $i;
+         echo "$text <br>";
+        }
      ?>
 </body>
 </html>

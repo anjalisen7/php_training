@@ -12,13 +12,10 @@
  <body>
             
   <?php 
-      function test($name="rizwan"){
-         echo "Hello!".$name."<br>";
+      function cube($a){
+         return $a * $a *$a;
       }
-      
-      test("anjali");
-      test("priya");  
-      test();  
+      echo  "cube of 5 is"."<br>" .cube(5);
   ?>
     
 

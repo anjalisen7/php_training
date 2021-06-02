@@ -10,11 +10,12 @@
 <body>
 
    <?php    
-     $x=1;
-     while($x <= 5){
-         echo "The number is: $x <br>";
-         $x++;
-          }
+     $b=2;
+      $a= "";
+     while($a<= 10){
+  echo ($b."*".$a."=".($a*2)."<br>");
+          $a++; 
+     }
     ?>
 </body>
 </html>

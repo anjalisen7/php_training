@@ -10,33 +10,11 @@
 <body>
 
    <?php    
-        $today=date("D");
-        switch($today){
-            case Mon:
-                echo "Today is Monday. Washing the Car and goes to drive.";
-                 break;
-             case Tue:
-                echo "Today is Tuesday. Buy Cloths.";
-                break;
-             case Wed:
-                 echo "Today is Wednesday. Visit Our Factory.";
-                 break;
-              case Thu:
-                    echo "Today is Thursday. Going to Lunch with Family In Night.";
-                    break;
-              case Fri:
-                    echo "Today is Friday. Watch movie show.";
-                    break;
-              case Sat:
-                     echo "Today is Saturday. going to temple.";
-                     break;
-                case Sun:
-                     echo "Today is Sunday. Rest with our Family and Enjoy.";
-               default:
-                echo " No task available for that day.";
-                   break;
-               } 
-               
-          ?>
+     $x=1;
+     while($x <= 5){
+         echo "The number is: $x <br>";
+         $x++;
+          }
+    ?>
 </body>
 </html>

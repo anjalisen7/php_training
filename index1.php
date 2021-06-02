@@ -12,12 +12,12 @@
  <body>
             
   <?php 
-      function test(&$sum){
-          $sum += 2; 
+      function test(&$name){
+          $name = "you can go now"; 
       }
-       $num=23;
-      test($num);
-      echo($num);    
+       $person ="anjali";
+      test($person);
+      echo($person);    
   ?>
     
 

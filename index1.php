@@ -11,35 +11,14 @@
  </head>
  <body>
             
-    <?php 
-  
-    $mail = $_GET['fmail'];
-    $password=$_GET['pass'];
-    if(!empty($mail) && !empty($password)){
-        echo "<h1>welcome to our site</h1>"."<br>";
-        echo "<h4>your email id is $mail</h4>"."<br>";
-        echo "<h3>password is:'.$password<h3>";
+  <?php 
+      function test(){
          
-    } else{
-         echo "<h1>oops!</h1>"."<br>";
-        echo "<h4> Error404: page not found</h4>"."<br>";
-        
-       
-    }
-  ?>
- <style>
-    h1{
-        background-color: grey;
-        text-align:center;
-    }
-     h4{
-          text-align:center;
-          text-decoration:underline;
-     }
-      h3{
-          text-align:center;
+           echo "hey! you there";
       }
-     </style>
+       test();
+  ?>
+ 
 
  </body>
  </html>

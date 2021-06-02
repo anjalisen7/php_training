@@ -12,12 +12,13 @@
  <body>
             
   <?php 
-      function test(&$name){
-          $name = "you can go now"; 
+      function test($name="rizwan"){
+         echo "Hello!".$name."<br>";
       }
-       $person ="anjali";
-      test($person);
-      echo($person);    
+      
+      test("anjali");
+      test("priya");  
+      test();  
   ?>
     
 

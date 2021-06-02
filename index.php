@@ -9,12 +9,14 @@
 </head>
 <body>
 
-   <?php    
-     for($i=1; $i<10; $i++)
+   <?php   
+     //All three parameters are optional, but semicolon (;)
+     // is must to pass in for loop. If we don't pass parameters, it will execute infinite.
+      $i =0;   
+     for(;;)
        {  
-           $text= 2;
-         $text *= $i;
-         echo "$text <br>";
+         $i++; 
+        echo "$i <br>";
         }
      ?>
 </body>

@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    height:80vh;
+    width: 80vw;
+    background-color: rgb(41, 95, 95);
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-top:20vh;
+    padding-left: 32vw;
+}
+#btn{
+    width:8vw;
+    background-color: darkred;
+    color:white;
+    border-radius: 25px;
+}
+.rounded-circle{
+    height:10vh;
+    width:5vw;
+    margin-left: 4vw;
+}
+ #text {
+     border-radius: 25px;
+ }
+ #text1 {
+    border-radius: 25px;
+ }
+ *{
+     color:burlywood;
+     font-family: cursive;
+     font-weight: bolder;
+ }

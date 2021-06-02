@@ -10,13 +10,14 @@
 <body>
 
    <?php   
-     //All three parameters are optional, but semicolon (;)
-     // is must to pass in for loop. If we don't pass parameters, it will execute infinite.
-      $i =0;   
-     for(;;)
+    
+     for( $i=0; $i<=10; $i++)
        {  
-         $i++; 
-        echo "$i <br>";
+          if($i>5) {
+            break;
+          }
+          
+           echo "$i <br>";
         }
      ?>
 </body>

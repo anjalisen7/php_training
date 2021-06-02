@@ -8,17 +8,15 @@
     <link rel ="stylesheet" href="index.css">
 </head>
 <body>
+          <h1>LOGIN</h1>
+     <form action="index1.php" method="post">
+      <label>NAME</label>
+      <input type = "text" name="iname">
+      <label>PASSWORD</label>
+      <input type ="password" name="pass">
+      <button type ="submit">ok</button>
 
    <?php   
-    
-     for( $i=0; $i<=10; $i++)
-       {  
-          if($i>5) {
-            break;
-          }
-          
-           echo "$i <br>";
-        }
-     ?>
+       ?>
 </body>
 </html>

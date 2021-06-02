@@ -9,7 +9,7 @@
 </head>
 <body>
           <h1>LOGIN</h1>
-     <form action="index1.php" method="post">
+     <form action="index1.php" method="get">
       <label>NAME</label>
       <input type = "text" name="iname">
       <label>PASSWORD</label>

@@ -8,8 +8,8 @@
  </head>
  <body>
  
-    Welcome <?php echo $_POST["iname"]; ?><br>
-   Your password is: <?php echo $_POST["pass"]; ?>
+    Welcome <?php echo $_GET["iname"]; ?><br>
+   Your password is: <?php echo $_GET["pass"]; ?>
 
  </body>
  </html>

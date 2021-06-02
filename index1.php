@@ -12,17 +12,14 @@
  <body>
             
   <?php 
-      function test($name ,$age){
-         
-           echo "Hey $name". "," ."you are $age old"."<br>";
+      function test(&$sum){
+          $sum += 2; 
       }
-       test("pinki",21);
-       test("sneha",34);
-       test("rizz",28);
-       test("noni", 4);
-       test("peehu", 18);
+       $num=23;
+      test($num);
+      echo($num);    
   ?>
- 
+    
 
  </body>
  </html>

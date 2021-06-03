@@ -12,13 +12,15 @@
  <body>
          <h1>EMPLOYEES LIST</h1>    
   <?php 
-    //  $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
-    //  $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
-    //  $emp_per=array_diff_key($employee,$person);
-     $a= array("emp_1"=>"anjali","emp_2"=>"priya","emp_3"=>"kim");
-     $b= array("emp_1"=>"anjali","emp_3"=>"kim");
-     $c= array_intersect_key($a,$b);
-      print_r ($c);
+
+                $a =23;
+                 $b=45;
+
+      function my(){
+          $GLOBALS['c'] =$GLOBALS['a']+ $GLOBALS['b']; 
+           }
+            my();
+            echo "sum of value:$c";
  
        ?>
  <style>

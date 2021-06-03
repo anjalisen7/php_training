@@ -12,13 +12,23 @@
  <body>
             
   <?php 
-    $season[0]="rainy"; 
-    $season[1]="summer"; 
-    $season[2]="winter"; 
-    $season[3]="bottom";
-    echo  "running season is:". $season[2]; 
-  ?>
+  
+    $person=array("name"=>"anjali","id"=>"21","city"=>"gwalior","salary"=>"45000/-");    
+    echo "<div>PERSON NAME:".$person["name"]."<br/>";  
+    echo "ID:".$person["id"]."<br/>";  
+    echo "CITY:".$person["city"]."<br/>";  
+    echo "SALARY:".$person["salary"]."<br/>  </div>";  
+   ?>
     
-
+ <style>
+    div{
+        height:200px;
+        width:500px;
+        text-align:center;
+        background-color:grey;
+        margin-left:30vw;
+        margin-top:20vh;
+    }
+ </style>
  </body>
  </html>

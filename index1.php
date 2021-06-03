@@ -12,10 +12,14 @@
  <body>
          <h1>EMPLOYEES LIST</h1>    
   <?php 
-     $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
-     $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
-     $emp_per=array_diff_key($employee,$person);
-    print_r ($emp_per);
+    //  $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
+    //  $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
+    //  $emp_per=array_diff_key($employee,$person);
+     $a=array_fill(4,2,"anjali");
+     $b=array_fill(3,1,"shoaib");
+    print_r ($a);
+    echo "<br>";
+    print_r ($b);
        ?>
  <style>
     div{

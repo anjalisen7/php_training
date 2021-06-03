@@ -14,7 +14,7 @@
   <?php 
      $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
      $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
-     $emp_per=array_diff($employee,$person);
+     $emp_per=array_diff_assoc($employee,$person);
     print_r ($emp_per);
        ?>
  <style>

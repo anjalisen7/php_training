@@ -9,12 +9,14 @@
 <body>
     
     <?php
-       $name =$password= "";
-       if($_SERVER["REQUEST_METHOD"]=="GET")
+       $mail =$password= "";
+       if($_SERVER["REQUEST_METHOD"]=="POST")
        {
-          echo "Welcome in our site";
+          $mail =    $_POST['fmail'];
+          $password= $_POST['pass'];
+          echo  "HELLO😄" ."<br>".$mail ."<br>"."your password is:".$password;
        } else{
-           echo "Something went wrong";
+           echo  "Something went wrong";
        }
 
 

@@ -10,25 +10,46 @@
     <link rel ="stylesheet" href="index.css">
  </head>
  <body>
-            
+         <h1>EMPLOYEES LIST</h1>    
   <?php 
   
-    $person=array("name"=>"anjali","id"=>"21","city"=>"gwalior","salary"=>"45000/-");    
-    echo "<div>PERSON NAME:".$person["name"]."<br/>";  
-    echo "ID:".$person["id"]."<br/>";  
-    echo "CITY:".$person["city"]."<br/>";  
-    echo "SALARY:".$person["salary"]."<br/>  </div>";  
+    $employee=array(
+        array(
+            "name" => "anjali",
+            "email" => "aashi@mail.com",
+        ),
+        array(
+            "name" => "vandana",
+            "email" => "vani@mail.com",
+        ),
+        array(
+            "name" => "Priya",
+            "email" => "priya143@mail.com",
+        ),
+        array(
+            "name" => "shilpa",
+            "email" => "sneha342@mail.com",
+        ),
+        );    
+    echo "<div>Employee Details:".$employee[3]["name"]."<br/>".$employee[3]["email"]."<br></div>";  
+    echo "<div>Employee Details:".$employee[1]["name"]."<br/>".$employee[1]["email"]."<br></div>";  
+    echo "<div>Employee Details:".$employee[2]["name"]."<br/>".$employee[2]["email"]."<br></div>";      
+
    ?>
     
  <style>
     div{
-        height:200px;
+        height:80px;
         width:500px;
         text-align:center;
         background-color:grey;
         margin-left:30vw;
         margin-top:20vh;
     }
+     h1{
+          text-align:center;
+          text-decoration:underline;
+     }
  </style>
  </body>
  </html>

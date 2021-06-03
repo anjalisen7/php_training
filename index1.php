@@ -13,8 +13,9 @@
          <h1>EMPLOYEES LIST</h1>    
   <?php 
      $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
-     $id=array( "s45" ,"a21","k88","s10");
-    print_r (array_count_values($employee));
+     $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
+     $emp_per=array_diff($employee,$person);
+    print_r ($emp_per);
        ?>
  <style>
     div{

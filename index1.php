@@ -30,10 +30,11 @@
             "name" => "shilpa",
             "email" => "sneha342@mail.com",
         ),
-        );    
-    echo "<div>Employee Details:".$employee[3]["name"]."<br/>".$employee[3]["email"]."<br></div>";  
-    echo "<div>Employee Details:".$employee[1]["name"]."<br/>".$employee[1]["email"]."<br></div>";  
-    echo "<div>Employee Details:".$employee[2]["name"]."<br/>".$employee[2]["email"]."<br></div>";      
+        );  
+        print_r(array_change_key_case($employee,CASE_UPPER));   
+    // echo "<div>Employee Details:".$employee[3]["name"]."<br/>".$employee[3]["email"]."<br></div>";  
+    // echo "<div>Employee Details:".$employee[1]["name"]."<br/>".$employee[1]["email"]."<br></div>";  
+    // echo "<div>Employee Details:".$employee[2]["name"]."<br/>".$employee[2]["email"]."<br></div>";     
 
    ?>
     

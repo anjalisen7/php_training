@@ -31,7 +31,7 @@
             "email" => "sneha342@mail.com",
         ),
         );  
-        print_r(array_change_key_case($employee,CASE_UPPER));   
+        print_r(array_chunk($employee,1));   
     // echo "<div>Employee Details:".$employee[3]["name"]."<br/>".$employee[3]["email"]."<br></div>";  
     // echo "<div>Employee Details:".$employee[1]["name"]."<br/>".$employee[1]["email"]."<br></div>";  
     // echo "<div>Employee Details:".$employee[2]["name"]."<br/>".$employee[2]["email"]."<br></div>";     

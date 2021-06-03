@@ -15,7 +15,7 @@
             <div class="col-sm-12">
         <h1> LOGIN FORM</h1>
         <img src ="img1506998160614.jpg" class="rounded-circle"> 
-    <form action="index1.php" method="get">
+    <form action="index1.php" method="post">
       <label>E-MAIL</label><br>
       <input type="email" id="text" placeholder="📧" name="fmail"><br><br>
       <label>PASSWORD</label><br>

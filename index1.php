@@ -12,33 +12,11 @@
  <body>
          <h1>EMPLOYEES LIST</h1>    
   <?php 
-  
-    $employee=array(
-        array(
-            "name" => "anjali",
-            "email" => "aashi@mail.com",
-        ),
-        array(
-            "name" => "vandana",
-            "email" => "vani@mail.com",
-        ),
-        array(
-            "name" => "Priya",
-            "email" => "priya143@mail.com",
-        ),
-        array(
-            "name" => "shilpa",
-            "email" => "sneha342@mail.com",
-        ),
-        );  
-         $email= array_column($employee,"name","email");
-        print_r($email);   
-    // echo "<div>Employee Details:".$employee[3]["name"]."<br/>".$employee[3]["email"]."<br></div>";  
-    // echo "<div>Employee Details:".$employee[1]["name"]."<br/>".$employee[1]["email"]."<br></div>";  
-    // echo "<div>Employee Details:".$employee[2]["name"]."<br/>".$employee[2]["email"]."<br></div>";     
-
-   ?>
-    
+     $employee=array( "sneha" ,"anjali","kriti","sonali");
+     $id=array( "s45" ,"a21","k88","s10");
+     $emp_id=array_combine($employee,$id);
+     print_r($emp_id);
+       ?>
  <style>
     div{
         height:80px;

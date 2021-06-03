@@ -12,10 +12,8 @@
  <body>
             
   <?php 
-      function cube($a){
-         return $a * $a *$a;
-      }
-      echo  "cube of 5 is"."<br>" .cube(5);
+    $food = array ("ice-cream","dark-chocolate","chicken-zinger");
+    echo "i like". "=" .$food[0].",".$food[1]. ",".$food[2]."<br>";
   ?>
     
 

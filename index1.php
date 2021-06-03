@@ -12,10 +12,9 @@
  <body>
          <h1>EMPLOYEES LIST</h1>    
   <?php 
-     $employee=array( "sneha" ,"anjali","kriti","sonali");
+     $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
      $id=array( "s45" ,"a21","k88","s10");
-     $emp_id=array_combine($employee,$id);
-     print_r($emp_id);
+    print_r (array_count_values($employee));
        ?>
  <style>
     div{

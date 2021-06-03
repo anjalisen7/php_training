@@ -16,8 +16,9 @@
     //  $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
     //  $emp_per=array_diff_key($employee,$person);
      $a= array("emp_1"=>"anjali","emp_2"=>"priya","emp_3"=>"kim");
-     $b= array_flip($a);
-      print_r ($b);
+     $b= array("emp_1"=>"anjali","emp_3"=>"kim");
+     $c= array_intersect($a,$b);
+      print_r ($c);
  
        ?>
  <style>

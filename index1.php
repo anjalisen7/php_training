@@ -13,7 +13,7 @@
             
   <?php 
     $food = array ("ice-cream","dark-chocolate","chicken-zinger");
-    echo "i like". "=" .$food[0].",".$food[1]. ",".$food[2]."<br>";
+    echo  "array length is:" . count($food);
   ?>
     
 

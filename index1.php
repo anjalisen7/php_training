@@ -12,8 +12,11 @@
  <body>
             
   <?php 
-    $food = array ("ice-cream","dark-chocolate","chicken-zinger");
-    echo  "array length is:" . count($food);
+    $season[0]="rainy"; 
+    $season[1]="summer"; 
+    $season[2]="winter"; 
+    $season[3]="bottom";
+    echo  "running season is:". $season[2]; 
   ?>
     
 

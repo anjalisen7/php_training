@@ -15,11 +15,11 @@
     //  $employee=array( "sneha" ,"anjali","kriti","sonali","sneha","anjali");
     //  $person=array( "sneha" ,"anjali","kriti","sneha","anjali");
     //  $emp_per=array_diff_key($employee,$person);
-     $a=array_fill(4,2,"anjali");
-     $b=array_fill(3,1,"shoaib");
-    print_r ($a);
-    echo "<br>";
+     $a=array("emp_1","emp_2","emp_3");
+     $b=array_fill_keys($a,"anjali");
+    
     print_r ($b);
+    echo "<br>";
        ?>
  <style>
     div{

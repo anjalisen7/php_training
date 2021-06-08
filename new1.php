@@ -34,10 +34,10 @@
                  var lastname = $('#lastname').val();
                  var password = $('#password').val();
                  var email = $('#email').val();
-                   if(firstname=="" || lastname=="" ||password=="" || email==""){
-                       $('#show_msg').html("please fill data");
-                     return false;
-                    }
+                //    if(firstname=="" || lastname=="" ||password=="" || email==""){
+                //        $('#show_msg').html("please fill data");
+                //      return false;
+                //     }
                     $.ajax({ 
                        type: "POST",
                         url: "new.php",
@@ -49,7 +49,6 @@
                             }  ,cache:false,
                             success: function(data){
                                $('#form').trigger("reset");
-                               $('#show_msg').fadeIn();
                                $('#show_msg').html(data);
                             }, 
                     });

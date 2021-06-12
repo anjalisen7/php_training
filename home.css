@@ -1,0 +1,116 @@
+.head{
+     height:13vh;
+}
+#logo{
+    margin-top: 3vh;
+    font-size: 6vh;
+    color:yellowgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #logo:hover{
+         color:white;
+         background-color:yellowgreen;
+ }
+ #navli{
+     margin-top: 3vh;
+     font-size: 4vh;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+  #up{
+      margin-top: 3vh;
+      font-size: 4vh;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #login{
+    margin-top: 3vh;
+    font-size: 4vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #navli{
+      margin-left: 7vh;
+ }
+  #about{
+       margin-left: 6vh;
+  }
+  #company{
+      font-family: cursive;
+      color:teal;
+      margin-left: 20vh;
+      font-size: 6vh;
+  }
+   #signup{
+        margin-left: 18vw;
+        margin-top:15vh;
+   }
+     #fname{
+          width:18vw;
+          height:6vh;
+     }
+      #lname{
+           width:18vw;
+           height:6vh;
+      }
+       #email{
+            width:80vh;
+            height:6vh;
+       }
+       #age{
+        width:80vh;
+        height:6vh;
+   } 
+   #number{
+    width:80vh;
+    height:6vh;
+}
+#password{
+    width:80vh;
+    height:6vh;
+}
+#submit{
+    width:80vh;
+    height:6vh;
+}
+ #form{
+     margin-top: 10vh;
+ }
+h5{
+     color:teal;
+}
+.main{
+     margin-left: 70vw;
+     margin-top: 2vh;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bolder;
+     font-size: 2.5vh;
+}
+#loginform{
+      margin-top: 23vh;
+}
+ #username{
+       width:80vh;
+       height:6vh;
+ }
+  .container3{
+        margin-left: 42vh;
+  }
+   #submit1{
+         width:80vh;
+         margin-left: 9vh;
+   }
+    .show_msg{
+          color:red;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size:3vh;
+          font:600;
+    }
+    .show_msg1{
+     color:green;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size:3vh;
+     font:600;
+}
+.show_alert{
+     height:6vh;
+     width:30vw;
+     border: 2px solid red;
+}

@@ -1,8 +1,8 @@
 <?php
 
-$file ="myfile.txt";
- $path = realpath($file);
-echo dirname($path,2);
+$file =  fopen("myfile.txt","r");
+
+echo fread($file,100);
  
 
  

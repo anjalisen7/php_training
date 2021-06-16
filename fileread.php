@@ -1,9 +1,9 @@
 <?php
 
-if(is_dir("upload")){
-    echo "yes it is folder";
+if(is_writeable("myfile.txt")){
+    echo "yes it is writeable";
 }else{
-     echo "no, its not folder";
+     echo "no, its not writeable";
 }
 
 ?>

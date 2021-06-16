@@ -1,10 +1,10 @@
 <?php
 
 $file ="myfile.txt";
- if(!file_exists("textfiles")){
-    mkdir("textfiles");
+ if(file_exists("textfiles")){
+    rmdir("textfiles");
  }else{
-      echo "Folder Already Exist";
+      echo "Folder Doesn't Exist";
  }
 
 

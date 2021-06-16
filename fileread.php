@@ -1,9 +1,9 @@
 <?php
 
-if(is_file("myfile.txt")){
-    echo "yes it is file";
+if(is_dir("upload")){
+    echo "yes it is folder";
 }else{
-     echo "no, its not file";
+     echo "no, its not folder";
 }
 
 ?>

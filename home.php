@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>php assignment</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -61,7 +61,72 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      </div><br>
+     <!----------------------------slider end---------------------------------->
       
+    <div class ="container-fluid mt-3" style="height:10vh; background-color:grey; color:black; font-size:3vh;">
+     
+    <div class="marquee">
+            <marquee  dirextion="left" behavior="alternate" scrollamount="20">
+           <marquee scrollamount="20" style ="margin-bottom:">COVID-19: from payments to resources-we want to help</marquee>
+          </marquee>
+           </div>    
+    </div><br><br><br><br>
+
+
+     <!----------------------------------------------------------------->
+     <div class="container-fluid py-5">
+       <div class="row mt-4">
+         <?php
+           $servername ="localhost";
+           $username="root";
+           $DbPassword ="";
+           $dbname ="anjali";
+           
+           $conn = mysqli_connect($servername, $username,$DbPassword,$dbname);
+          $sql = "SELECT * FROM `cards`";
+          $result = mysqli_query($conn,$sql);
+          $check =mysqli_num_rows($result) > 0;
+           if($check){
+               while($row = mysqli_fetch_array($result))
+                {
+                 ?>
+               <div class="col-md-4">
+               <div class="card-deck">
+        <div class="card">
+        <div class ="card-body">
+          <img src = "<?php  echo $row['pic']; ?>"  height="300vh"; width="280vw"; class ="img-top" alt ="card">
+          <h3><?php echo $row['post title'] ?></h3>
+          <p><?php echo $row['description'] ?></p>
+          <p><?php echo $row['author'] ?></p>
+          <p><?php echo $row['date'] ?></p>
+        </div>    
+        </div>
+        <div>
+        </div>
+      </div>
+      </div>
+      <?php
+     }
+    }
+ else{
+      echo "not found";
+    } 
+  ?>
+      </div>
+  </div>
+   <!----------------------------------------------card-end---------------------------------------->   
+    <div class="container-fluid">
+  <div class="jumbotron">
+    <h1>FRIENDSTER</h1>  
+    <b> <ul style="list-style-type: none;">
+            <li>ABOUT FRIENDSTER</li>
+            <li>KNOW MORE</li>
+            <li>Affiliations</li>
+            <li>CONTACT US</li>
+          </ul></b>
+    </div>
+  </div>
+  </div>
 </body>
 </html>

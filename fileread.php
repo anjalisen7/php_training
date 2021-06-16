@@ -2,7 +2,7 @@
 
 $file ="myfile.txt";
  $path = realpath($file);
-echo basename($path);
+echo dirname($path);
  
 
  

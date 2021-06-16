@@ -1,8 +1,9 @@
 <?php
 
 $file ="myfile.txt";
-  echo realpath($file);
-
+echo "<pre>";
+  print_r (pathinfo($file));
+  echo "</pre>";
 
  
 ?>

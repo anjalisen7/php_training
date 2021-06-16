@@ -2,8 +2,7 @@
 
 $file ="myfile.txt";
 if(file_exists($file)){
-    echo readfile($file);
-    copy($file,("newfile.txt"));
+      rename("newfile.txt","oldfile.txt");
 }else{
     echo "file doesn't exist";
 }

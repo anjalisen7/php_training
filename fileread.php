@@ -2,7 +2,7 @@
 
 $file ="myfile.txt";
 if(file_exists($file)){
-      rename("newfile.txt","oldfile.txt");
+      unlink("oldfile.txt");
 }else{
     echo "file doesn't exist";
 }

@@ -1,9 +1,9 @@
 <?php
 
-if(is_writeable("myfile.txt")){
-    echo "yes it is writeable";
+if(is_readable("myfile.txt")){
+    echo "yes it is readable";
 }else{
-     echo "no, its not writeable";
+     echo "no, its not readable";
 }
 
 ?>

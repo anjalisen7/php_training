@@ -1,7 +1,7 @@
 <?php
 
 $file ="myfile.txt";
-  echo filetype($file);
+  echo realpath($file);
 
 
  

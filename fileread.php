@@ -1,6 +1,12 @@
 <?php
 
 $file ="myfile.txt";
- mkdir("textfiles");
+ if(!file_exists("textfiles")){
+    mkdir("textfiles");
+ }else{
+      echo "Folder Already Exist";
+ }
+
+
  
 ?>

@@ -1,11 +1,11 @@
 <?php
- $int = 122;
+ $ip = "2001:db8:0:1234:0:567:8:1";
  
 
- if(filter_var($int,FILTER_VALIDATE_INT)){
-     echo "$int is integer";
+ if(filter_var($ip,FILTER_VALIDATE_IP)){
+     echo "$ip is valid ipv6";
  }else{
-    echo "$int is not integer";
+    echo "$ip is not valid ipv6";
  }
 
 

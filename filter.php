@@ -2,7 +2,11 @@
  $int = 122;
  
 
- var_dump(filter_var($int,FILTER_VALIDATE_INT));
+ if(filter_var($int,FILTER_VALIDATE_INT)){
+     echo "$int is integer";
+ }else{
+    echo "$int is not integer";
+ }
 
 
 ?>

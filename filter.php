@@ -5,7 +5,10 @@ $arr = array(
    "emp_email" => "anjali.aasima.sen@gmail.com",
 );
 $filters = array(
-       "emp_name" => FILTER_SANITIZE_STRING,        
+       "emp_name" =>array(
+          "filter" => FILTER_SANITIZE_STRING,
+           "flags" =>  FILTER_FLAG_STRIP_HIGH
+       ),        
        "emp_age" => array(
            "filter" => FILTER_VALIDATE_INT,
            "option" => array(

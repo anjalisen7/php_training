@@ -1,0 +1,46 @@
+.container{
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+     height:65vh;
+     width:40vw;
+      border: 2px solid white;
+      margin-top: 20vh;
+      margin-left: 28vw;
+      background-color: whitesmoke;
+}
+#fullname{
+     margin-top: 5vh;
+}
+ body{
+     background-color:rgb(133, 179, 180);
+ } 
+ .color{
+     height:10vh;
+     width:40vw;
+     background-color:blueviolet;
+
+ }
+ #submit{
+      width:8vw;
+      height:4vh;
+      background: blueviolet;
+      border-radius: 5vw;
+ }
+ .error-msg{
+     background: #f2dedf;
+     border: 1px solid#e7cde1;
+     color:#9c4150;
+     height:5vh;
+ }
+ .success-msg{
+    background: #e0efda;
+    border: 1px solid #c6dfb2;
+    color:#407a4a;
+    height: 5vh;
+}
+.process-msg{
+    background: #d9edf6;
+    border: 1px solid #c8dce5;
+    color:#377084;
+}

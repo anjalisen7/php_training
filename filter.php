@@ -2,11 +2,11 @@
  $var = "43535";
  
 
- var_dump(filter_var($var,FILTER_VALIDATE_BOOLEAN,FILTER_NULL_ON_FAILURE));
-   if(filter_var($var,FILTER_VALIDATE_BOOLEAN)){
-     echo "<br> $var is boolean";
+ var_dump(filter_var($var,FILTER_VALIDATE_EMAIL));
+   if(filter_var($var,FILTER_VALIDATE_EMAIL)){
+     echo "<br> $var is a valid email";
  }else{
-    echo " <br> $var is not boolean";
+    echo " <br> $var is not a valid email";
  }
 
 

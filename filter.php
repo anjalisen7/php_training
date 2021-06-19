@@ -1,8 +1,8 @@
 <?php
- $var = "1,50,000";
+ $var = "150e";
  
 
- $var = (filter_var($var,FILTER_SANITIZE_NUMBER_FLOAT ,FILTER_FLAG_ALLOW_THOUSAND));
+ $var = (filter_var($var,FILTER_SANITIZE_NUMBER_FLOAT ,FILTER_FLAG_ALLOW_SCIENTIFIC));
    if(filter_var($var,FILTER_VALIDATE_FLOAT)){
      echo "<br> $var is a valid FLOAT";
  }else{

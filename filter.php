@@ -2,11 +2,11 @@
  $var = "$$345&.90";
  
 
- $var = (filter_var($var,FILTER_SANITIZE_NUMBER_INT));
-   if(filter_var($var,FILTER_VALIDATE_INT)){
-     echo "<br> $var is a valid INTEGER";
+ $var = (filter_var($var,FILTER_SANITIZE_NUMBER_FLOAT ,FILTER_FLAG_ALLOW_FRACTION));
+   if(filter_var($var,FILTER_VALIDATE_FLOAT)){
+     echo "<br> $var is a valid FLOAT";
  }else{
-    echo " <br> $var is not a valid INTEGER";
+    echo " <br> $var is not a valid FLOAT";
  }
 
 

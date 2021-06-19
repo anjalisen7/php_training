@@ -27,6 +27,9 @@
                  <input type = "text" id ="lname" name="lname" placeholder=" 👨‍💼      last Name"><br><br>
                  <input type = "email" id ="email" name="email" placeholder=" 📧    E-mail"><br><br>
                  <input type = "text" id ="age" name="age" placeholder="age"><br><br>
+                 <input type = "text" id ="address" name="address" placeholder="address"><br><br>
+                 <input type = "text" id ="city" name="city" placeholder="city"><br><br>
+                 <input type = "text" id ="field" name="field" placeholder="field"><br><br>
                  <input type = "password" id ="password" name="password" placeholder=" 🔏     Password"><br><br>
                  <input type ="submit" class ="btn btn-success btn-lg" id ="submit" name="submit" value ="Create your account">
                  <h5>________________________________OR___________________________________________</h5>
@@ -47,27 +50,31 @@
                  var lname = $('#lname').val();                 
                  var age = $('#age').val();                                 
                  var password = $('#password').val();
+                 var address = $('#address').val();
                  var email = $('#email').val();
-                   if(fname=="" || lname=="" ||password=="" || email=="" || age ==""){
+                 var city = $('#city').val();
+                 var field = $('#field').val();
+                   if(fname=="" || lname=="" ||password=="" || email=="" || age ==""|| address==""|| city==""|| field==""){
                        $('.show_msg').html("*All field is mandatory");
                       return false;
                     } 
-                     console.log(password);
                     $.ajax({ 
                        type: "POST",
-                        url: "profile1.php",
+                        url: "signupbackend.php",
                          data:{
                              fname :fname,
                              lname :lname,
                              age:age,
                              password:password,
                              email :email,
+                             city:city,
+                             address:address,
+                             field:field,
                              
                             }  ,cache:false,
                             success: function(data){
                                $('#form').trigger("reset");
                                 $('.show_msg').html(data);
-                                console.log(data);
                               //  $('.show_msg').html("Registration is successful");
                               //  $('.show_msg').css("color","green");
                             }, 

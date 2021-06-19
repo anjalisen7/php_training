@@ -1,5 +1,5 @@
 <?php
- $var = "wow";
+ $var = "true";
  
 
  var_dump($var,FILTER_VALIDATE_BOOLEAN,FILTER_NULL_ON_FAILURE);

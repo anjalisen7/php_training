@@ -1,5 +1,5 @@
 <?php
- $var = "43535";
+ $var = "raashi_rj@yahoo.in";
  
 
  var_dump(filter_var($var,FILTER_VALIDATE_EMAIL));

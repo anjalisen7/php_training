@@ -1,8 +1,8 @@
 <?php
- $var = 'thi"s i/s the best //thing.';
+ $var = "<h1>life is beautiful.</h1>";
  
 
- echo (filter_var($var,FILTER_SANITIZE_MAGIC_QUOTES));
+ echo (filter_var($var,FILTER_SANITIZE_STRING));
   
 
 

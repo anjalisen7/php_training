@@ -1,11 +1,11 @@
 <?php
- $ip = "2001:db8:0:1234:0:567:8:1";
+ $url = "https://in.search.yahoo.com/search?fr=mcafee&type=E210IN885G91506&p=codeigniter+tutorial";
  
 
- if(filter_var($ip,FILTER_VALIDATE_IP)){
-     echo "$ip is valid ipv6";
+ if(filter_var($url,FILTER_VALIDATE_URL)){
+     echo "  valid url";
  }else{
-    echo "$ip is not valid ipv6";
+    echo " Unvalid url";
  }
 
 

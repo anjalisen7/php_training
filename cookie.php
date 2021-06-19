@@ -1,7 +1,7 @@
 <?php
  $cookie_name = "user";
  $cookie_value ="EVERYTHING IS OK?";
-  setcookie( $cookie_name,$cookie_value, time() + (3600),"/")
+  setcookie( $cookie_name,$cookie_value, time() + (86400 *30),"/")
 ?>
  <!DOCTYPE html>
  <html lang="en">

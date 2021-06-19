@@ -1,12 +1,12 @@
 <?php
- $var = "anjali.(aashi//@gmail.)com";
+ $var = "https://www.anjali      sen.net";
  
 
- $var = (filter_var($var,FILTER_SANITIZE_EMAIL));
-   if(filter_var($var,FILTER_VALIDATE_EMAIL)){
-     echo "<br> $var is a valid EMAIL";
+ $var = (filter_var($var,FILTER_SANITIZE_URL));
+   if(filter_var($var,FILTER_VALIDATE_URL)){
+     echo "<br> $var is a valid URL";
  }else{
-    echo " <br> $var is not a valid EMAIL";
+    echo " <br> $var is not a valid URL";
  }
 
 

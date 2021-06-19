@@ -1,11 +1,12 @@
 <?php
- $url = "https://in.search.yahoo.com/search?fr=mcafee&type=E210IN885G91506&p=codeigniter+tutorial";
+ $var = "wow";
  
 
- if(filter_var($url,FILTER_VALIDATE_URL,FILTER_FLAG_QUERY_REQUIRED)===false){
-     echo "  valid url";
+ var_dump($var,FILTER_VALIDATE_BOOLEAN,FILTER_NULL_ON_FAILURE);
+   if(filter_var($var,FILTER_VALIDATE_BOOLEAN)){
+     echo "<br> $var is boolean";
  }else{
-    echo " Unvalid url";
+    echo " <br> $var is not boolean";
  }
 
 

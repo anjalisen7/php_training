@@ -56,7 +56,7 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
                         <input type="submit" class="profile-edit-btn" id="edit_btn" name="btnAddMore" value="Edit Profile"/>
                     </div><br><br>
                     <div class="col-md-2">
-                    <a class="btn btn-info" id="logout-profile-btn">logout</a>
+                        <a href ="logout1.php"><input type="button" value="logout" name="logout"></a>
                       
                     </div>
                 </div>

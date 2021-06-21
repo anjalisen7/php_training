@@ -1,0 +1,47 @@
+h1{
+     text-align: -webkit-center;
+     color:white;
+     font-weight: 600;
+     font-style: italic;
+     text-decoration: underline;
+}
+h2{
+    text-align: -webkit-center;
+     font-weight: 800;
+     font-style: italic;
+     color:cadetblue;
+}
+.register{
+     background-image: url(pic.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 800px;
+    
+}
+ .reg{
+      background-color:rgba(0,0,0,0.5);
+      border: 1px solid white;
+      border-radius: 10px;
+ }
+ .form-control {
+     background-color: transparent;
+     border:none;
+     border-bottom:  3px solid white;
+     border-radius:  0px !important;
+     outline: 0;
+ }
+ .btn-default{
+      margin-top: 17vh;
+      margin-left: 35vh;
+     background-color: black;
+     color:white;
+     border-radius: 4vh;
+     width:30vh;
+     font-weight: 1000;
+     
+ }
+ #label{
+       color:black;
+       font-weight: bolder;
+       font-style: italic;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }

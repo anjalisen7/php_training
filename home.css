@@ -971,11 +971,26 @@ select.form-control:not([size]):not([multiple]) {
     width:100vh;
      border: 2px solid black;
 }
-.cover-div{
-    height:40vh;
-    width:100vh;
-    margin-left: 50vh;
+.head{
+          height:300px;
+          width:100%;
+          border: 2px solid white;
+}
+#preview{
+    height:160px;
+    width:77%;
     border: 2px solid white;
-    background-color: white;
-    border-radius: 20px;
+    margin-left: 180px;
+    margin-bottom:45px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.cover{
+    height:120px;
+    width:40%;
+    border: 2px solid grey;
+}
+#upload_file{
+    height:40px;
+    width:40%;
 }

@@ -7,8 +7,6 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
      while($data =mysqli_fetch_array($result)){
 ?>
 
-     
-     
 
  <!DOCTYPE html>
 <html lang="en">
@@ -25,9 +23,15 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
   
 </head>
 <body id ="profile_body">
-    <div class="container cover">
-     <a style="text-decoration:none;" class="cover-cam" href="coverchange.php">📷</a>
-     <div id ="image-preview"></div>
+
+    <div id="preview">
+     <div id="image_preview">
+     <img style="height:155px; width:100%;" src="<?php echo 'cover/'.$data['cover_img']?>"></a>
+       <div  class="camera">
+       <a style="text-decoration:none;" href="cover.php" class="cover-cam">📷</a>
+       </div> 
+     </div>
+     
     </div>
 <div class="container emp-profile">
            
@@ -82,7 +86,7 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
                       
                     </div>
                     <div class="col-md-2" style="width:180px;">
-                        <a href ="disabled.php"><input type="button" value=" enabled"  class="disabled_btn" name="disabled"></a>
+                        <a href ="disabled.php"><input type="button" value=" enable"  class="disabled_btn" name="disabled"></a>
                       
                     </div>
                 </div>
@@ -158,6 +162,7 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
 }
 ?>
 <script>
+
  $('#edit_btn').click(function(){
    $('#input_name').removeAttr("disabled");
    $('#input_age').removeAttr("disabled");

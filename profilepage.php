@@ -26,7 +26,7 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
 
     <div id="preview">
      <div id="image_preview">
-     <img style="height:155px; width:100%;" src="<?php echo 'cover/'.$data['cover_img']?>"></a>
+     <img style="height:300px; width:100%;" src="<?php echo 'cover/'.$data['cover_img']?>"></a>
        <div  class="camera">
        <a style="text-decoration:none;" href="cover.php" class="cover-cam">📷</a>
        </div> 

@@ -977,7 +977,7 @@ select.form-control:not([size]):not([multiple]) {
           border: 2px solid white;
 }
 #preview{
-    height:160px;
+    height:300px;
     width:77%;
     border: 2px solid white;
     margin-left: 180px;

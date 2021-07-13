@@ -298,8 +298,11 @@ h5{
      height:35vh;
  }
  .cover-cam{
-     margin-left: 130vh;
+     margin-left: 145vh;
      font-size: xx-large;
+ }
+ .cover-cam:hover{
+     border-style: solid;
  }
  #post_title{
      width:90vh;

@@ -28,7 +28,7 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
      <div id="image_preview">
      <img style="height:300px; width:100%;" src="<?php echo 'cover/'.$data['cover_img']?>"></a>
        <div  class="camera">
-       <a style="text-decoration:none;" href="cover.php" class="cover-cam">📷</a>
+       <a style="text-decoration:none;" data-toggle="tooltip" title="Click! for cover change." data-placement="top" href="cover.php" class="cover-cam">📷</a>
        </div> 
      </div>
      
@@ -73,20 +73,20 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
                         </div>
                     </div>
                     <div class="col-md-2">
-                       <a href="#"><input type="button" class="profile-edit-btn" id="edit_btn" name="btnAddMore" value="Edit Profile"></a>
+                       <a href="#"><input type="button" class="profile-edit-btn" id="edit_btn" data-toggle="tooltip" title="Click! for Edit your profile"  name="btnAddMore" value="Edit Profile"></a>
                     </div><br><br>
                     <div class="col-md-2">
-                       <a href="updateprofile.php"><input type="submit" class="profile-update-btn" id="update_btn" name="update" value="Update Profile"></a>
+                       <a href="updateprofile.php"><input type="submit" class="profile-update-btn" id="update_btn" name="update" data-toggle="tooltip" title="Click! for Update."  value="Update Profile"></a>
                     </div><br><br>
                     <div class="col-md-2">
-                       <a href="deleteprofile.php"><input type="button" class="profile-delete-btn" id="delete_btn" name="Delete" value="Delete Profile"></a>
+                       <a href="deleteprofile.php"><input type="button" class="profile-delete-btn" data-toggle="tooltip" title="Are You Sure?" id="delete_btn" name="Delete" value="Delete Profile"></a>
                     </div><br><br>
                     <div class="col-md-2">
-                        <a href ="logout1.php"><input type="button" value="logout"  class="logout_btn" name="logout"></a>
+                        <a href ="logout1.php"><input type="button" value="logout" data-toggle="tooltip" title="You are Login."   class="logout_btn" name="logout"></a>
                       
                     </div>
                     <div class="col-md-2" style="width:180px;">
-                        <a href ="disabled.php"><input type="button" value=" enable"  class="disabled_btn" name="disabled"></a>
+                        <a href ="disabled.php"><input type="button" value="enable" data-toggle="tooltip" title="You are Enable ,Click! for disable your id."  class="disabled_btn" name="disabled"></a>
                       
                     </div>
                 </div>
@@ -129,7 +129,7 @@ if(isset($_SESSION['user']) && !empty($_SESSION['user'])){
                                                 <label style="color:teal; font-size:2.4vh; ">Email</label>
                                             </div>
                                             <div class="col-md-6">
-                                            <p><input type="email" name="email" id="input_email" value="<?php print_r($data['email']); ?>"disabled></p>
+                                            <p><input type="email" name="email" data-toggle="tooltip" title="You can't change E-mail ID" id="input_email" value="<?php print_r($data['email']); ?>"disabled></p>
                                             </div>
                                         </div>
                                         <div class="row">
